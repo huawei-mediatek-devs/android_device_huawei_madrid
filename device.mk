@@ -6,3 +6,7 @@
 
 # Inherit from mt6761-common
 $(call inherit-product, device/huawei/mt6761-common/common.mk)
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
