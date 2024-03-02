@@ -10,6 +10,9 @@ $(call inherit-product, device/huawei/mt6761-common/common.mk)
 # Display
 TARGET_SCREEN_DENSITY := 320
 
+# Shipping API level
+PRODUCT_SHIPPING_API_LEVEL := 28
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
