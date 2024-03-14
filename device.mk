@@ -7,6 +7,9 @@
 # Inherit from mt6761-common
 $(call inherit-product, device/huawei/mt6761-common/common.mk)
 
+# Inherit the proprietary files
+$(call inherit-product, vendor/huawei/madrid/madrid-vendor.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1560
 TARGET_SCREEN_WIDTH := 720
